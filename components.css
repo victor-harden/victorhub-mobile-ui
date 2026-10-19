@@ -1,0 +1,70 @@
+@import url("tokens.css");
+
+body {
+  margin: 0;
+  background: var(--vh-bg);
+  color: var(--vh-text);
+  font-family: var(--vh-font);
+  font-size: var(--vh-font-size);
+  padding: var(--vh-space-3);
+}
+
+.vh-button {
+  min-height: var(--vh-touch);
+  min-width: var(--vh-touch);
+  padding: 0 var(--vh-space-4);
+  border: 0;
+  border-radius: var(--vh-radius);
+  background: var(--vh-accent);
+  color: #04121f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.vh-card {
+  background: var(--vh-surface);
+  border-radius: var(--vh-radius);
+  padding: var(--vh-space-3);
+  margin-bottom: var(--vh-space-3);
+}
+
+.vh-list { list-style: none; margin: 0; padding: 0; }
+.vh-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--vh-touch);
+  border-bottom: 1px solid var(--vh-muted);
+}
+
+.vh-badge {
+  display: inline-block;
+  padding: var(--vh-space-1) var(--vh-space-2);
+  border-radius: 999px;
+  background: var(--vh-surface);
+  color: var(--vh-accent);
+  font-size: 0.8rem;
+}
+
+.vh-bottom-nav {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: var(--vh-space-2);
+  padding: var(--vh-space-2);
+  background: var(--vh-surface);
+  border-radius: var(--vh-radius);
+}
+
+.vh-bottom-nav a {
+  flex: 1;
+  text-align: center;
+  min-height: var(--vh-touch);
+  line-height: var(--vh-touch);
+  color: var(--vh-text);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  body { max-width: 720px; margin: 0 auto; }
+}

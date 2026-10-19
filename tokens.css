@@ -1,0 +1,24 @@
+:root {
+  --vh-bg: #0f172a;
+  --vh-surface: #1e293b;
+  --vh-text: #e2e8f0;
+  --vh-muted: #94a3b8;
+  --vh-accent: #38bdf8;
+  --vh-danger: #f87171;
+  --vh-radius: 0.75rem;
+  --vh-space-1: 0.25rem;
+  --vh-space-2: 0.5rem;
+  --vh-space-3: 1rem;
+  --vh-space-4: 1.5rem;
+  --vh-touch: 44px;
+  --vh-font: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --vh-font-size: clamp(1rem, 0.95rem + 0.4vw, 1.125rem);
+}
+
+[data-theme="light"] {
+  --vh-bg: #f8fafc;
+  --vh-surface: #ffffff;
+  --vh-text: #0f172a;
+  --vh-muted: #475569;
+  --vh-accent: #0284c7;
+}
